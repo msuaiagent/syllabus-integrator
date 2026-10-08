@@ -29,10 +29,11 @@ To process the syllabus, you must extract its content into a string your LLM can
 
 Now, connect your automation tool to the LLM.
 
-1. Add the **OpenAI (or Anthropic)** module.
+1. Add the **Groq** module (you can also use OpenAI or Anthropic, but these will not be free).
 2. Select the "Create a Completion" or "Chat" action.
-3. Choose your model (e.g., `gpt-4o` or `claude-3-5-sonnet`).
-4. Map the **extracted text** from Step 1 into the "User Message" or "Prompt" field.
+3. Go to Groq.com (or the LLM of your choice) and create a free API key. 
+5. Choose your model (e.g., `llama-3.1-8b-instant` or `claude-3-5-sonnet`).
+6. Map the **extracted text** from Step 1 into the "User Message" or "Prompt" field.
 
 ---
 
